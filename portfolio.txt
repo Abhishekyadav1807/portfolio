@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <header>
+    <ul class="navlist">
+        <li><a href="home" class="active">Home</a></li>
+        <li><a href="about">About Me</a></li>
+        <li><a href="skills">My Skills</a></li>
+        <li><a href="contact">Contact Me</a></li>
+    </ul>
+    <div class="menu" id="menu1"></div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello everyone</span>
+            </div>
+            <h1>Abhishek <span><i>here,</i></span></h1>
+            <h3>Web <span>Developer</span></h3>
+            <p>Currently, a trainee in cloud computing cell.</p>
+            <div class="button">
+                <a href="#" class="btn">About Me</a>
+            </div>
+        <div class="right">
+            <img src="abhi.jpg" alt="">
+        </div>    
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>School Life</h4>
+            <pre>
+                I have done my 10th and 12th from same school.
+                My schooling is done from S.T.Thomas School.
+                During my school life i was the house captain.
+            </pre>
+            <h4>College Life</h4>
+            <pre>
+                I am pursuing my B.Tech from A.K.G.E.C.
+                My branch is Information Technology.
+            </pre>
+            <a href="#" class="btn">More About Me</a>
+            </div>
+    </section>
+        <section class="Skills">
+            <div class="box">
+            <h2>My Skills</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="c">
+                <img src="c.jpeg">
+            </div>
+            <div class="html">
+            <img src="html.jpeg">
+            </div>
+            <div class="css">
+                <img src="css.jpeg">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact<span>Me!</span></h2>
+                <h4>If you have any ideas or suggestions for me.</h4>
+                <p>Contact details are given below</p>
+                <div class="list">
+                <li><a href="#">0707181818</a></li>
+                <li><a href="#">abhi@gmail.com</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://instagram.com/abhishek1078_"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://linkedin.com/AbhiYadav"><i class='bx bxl-linkedin' ></i></i></a>
+            </div>
+            </div>
+            <div class="contact-data">
+                <form action="">
+                    <input type="name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="number" placeholder="Your Number" required>
+                    <textarea name="" id="" cols="50" rows="25" placeholder="Provide your suggestions and how can i help you "required></textarea>
+                    <input type="submit" value="Send message" class="submit"required>
+                </form>
+            </div>
+        </section>
+        <section class="end">
+            <div class="last-text">
+                <p>Designed by--Abhishek Yadav</p>
+            </div>
+            <div class="top">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </section>
+</body>
+</html>
